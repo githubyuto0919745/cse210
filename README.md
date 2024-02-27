@@ -1,5 +1,5 @@
 # cse210-student-template
-Yuto Akatsuka for students in CSE 210.
+Yuto Akatsuka Winter 2024 CSE 210.
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
