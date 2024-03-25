@@ -2,7 +2,7 @@ public class Listing : Activities
 {
   protected List<string>_asking;
   protected List<string>_responses;
-  protected List<Entry> entries;
+  
 
   public Listing(string activities, string description, string ending) 
       :base (activities, description, ending)
