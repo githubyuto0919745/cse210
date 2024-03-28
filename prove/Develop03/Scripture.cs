@@ -25,7 +25,6 @@ public class Scripture
         System.Console.WriteLine($"Reference: {_reference}");
         Console.WriteLine("Press 'Enter' to reveal a word, or type 'quit' to end:");
         _word.Display();
-        //_word.Display();
         
     }
   
