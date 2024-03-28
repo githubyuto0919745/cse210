@@ -11,8 +11,9 @@ public class Scripture
 
     public Scripture(string scriptureStr, Reference reference)
     {
-        _scriptureText = scriptureStr;
+        _scriptureText = scriptureStr.TrimEnd();
         _word = new Word (_scriptureText.Split(" "));
+
         _reference = reference;
 
 
@@ -24,7 +25,7 @@ public class Scripture
         System.Console.WriteLine($"Reference: {_reference}");
         Console.WriteLine("Press 'Enter' to reveal a word, or type 'quit' to end:");
         _word.Display();
-        _word.Display();
+        //_word.Display();
         
     }
   
