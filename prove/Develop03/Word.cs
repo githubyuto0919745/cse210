@@ -24,12 +24,12 @@ public class Word
     {
         Console.WriteLine("Press 'Enter' to reveal a word, or type 'quit' to end:");
         
-        while (true)
+        while (_countHiddenWords < _words.Count)
         {
             string input = Console.ReadLine();
             if (input == "quit")
             {
-                break;
+                return;
             }
             else if (input == "")
             {

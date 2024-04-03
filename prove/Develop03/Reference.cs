@@ -2,9 +2,9 @@ using System;
 
 public class Reference 
 {
-    public string Book { get; set; }
-    public int Chapter { get; set; }
-    public int Verse { get; set; }
+    private string Book { get; set; }
+    private int Chapter { get; set; }
+    private int Verse { get; set; }
 
     public Reference(string book, int chapter, int verse)
     {
