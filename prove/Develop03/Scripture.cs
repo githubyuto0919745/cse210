@@ -9,6 +9,7 @@ public class Scripture
     private Reference _reference;
     
 
+
     public Scripture(string scriptureStr, Reference reference)
     {
         _scriptureText = scriptureStr.TrimEnd();

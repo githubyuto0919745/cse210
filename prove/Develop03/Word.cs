@@ -7,6 +7,7 @@ public class Word
     private Random _random;
     private int _countHiddenWords;
 
+
     public Word(string[] words)
     {
         _words = new List<string>(words);

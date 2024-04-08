@@ -6,6 +6,7 @@ public class Reference
     private int Chapter { get; set; }
     private int Verse { get; set; }
 
+
     public Reference(string book, int chapter, int verse)
     {
         Book = book;
