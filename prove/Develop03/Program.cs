@@ -25,6 +25,7 @@ class Program
         Reference reference = new Reference ("John",3,userindex);
         Scripture scripture = new Scripture(scriptures[userindex -1], reference);
         scripture.Display();
+        
     }
 
     public void Displaymenu(List<string>scriptures)
