@@ -51,7 +51,7 @@ public class Order
     }
     public string ShippingLabel(string _name, Address address)
     {
-        return $"Shipping Label:\nName: {_name}\nAddress: {address._address},\n{address._city}, {address._state}, {address._country}";
+        return $"Shipping Label:\nName: {_name}\nAddress: {address.Addresses},\n{address.City}, {address.State}, {address.Country}";
     }
         
 
